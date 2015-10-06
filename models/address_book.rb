@@ -7,7 +7,7 @@ class AddressBook
         @entries = []
     end
     
-    def remove_entry(name, phone_number, email)
+    def remove_entry(name, phone, email)
         delete_entry = nil
         
         @entries.each do |entry|
